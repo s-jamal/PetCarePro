@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/slicknav.css">
+    <link rel="stylesheet" href="assets/scss/index.css">
+    
+</head>
+
+<body>
+    
+    <header>    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 logo">
+                    <a href="#"><img src="assets/img/logo.png" alt="Brand Logo"></a>
+                </div><!-- .col-md-3 -->
+                <div class="col-md-9">
+                    <nav class="navbar navbar-default j-navbar">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <!--<div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>-->
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul id="header-menu" class="nav navbar-nav navbar-right">
+                                    <li class="dropdown j-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu j-dropdown-menu">
+                                            <li><a href="#">Home Page - Slider</a></li>
+                                            <li><a href="#">Home Page - Image</a></li>
+                                            <li><a href="#">Home Page - Carousel</a></li>
+                                        </ul><!-- .dropdown-menu -->
+                                    </li>
+                                    <li class="dropdown j-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu j-dropdown-menu">
+                                            <li><a href="#">About Us</a></li>
+                                            <li class="side-drop">
+                                                <a href="#">Gallery</a>
+                                                <ul class="side">
+                                                    <li><a href="#">Gallery 2 Columns</a></li>
+                                                    <li><a href="#">Gallery 3 Columns</a></li>
+                                                    <li><a href="#">Gallery 4 Columns</a></li>
+                                                </ul><!-- .side -->
+                                            </li>
+                                            <li><a href="#">FAQ</a></li>
+                                            <li><a href="#">404 Page</a></li>
+                                            <li><a href="#">Under Construction</a></li>
+                                        </ul><!-- .dropdown-menu -->
+                                    </li>
+                                    <li class="dropdown j-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Doctors <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu j-dropdown-menu">
+                                            <li><a href="#">Doctors</a></li>
+                                            <li><a href="#">Doctors Detail</a></li>
+                                        </ul><!-- .dropdown-menu -->
+                                    </li>
+                                    <li class="dropdown j-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu j-dropdown-menu">
+                                            <li><a href="#">Services</a></li>
+                                            <li><a href="#">Services Detail</a></li>
+                                        </ul><!-- .dropdown-menu -->
+                                    </li>
+                                    <li class="dropdown j-dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog <i class="fa fa-angle-down"></i></a>
+                                        <ul class="dropdown-menu j-dropdown-menu">
+                                            <li><a href="#">Blog Main</a></li>
+                                            <li><a href="#">Blog Single</a></li>
+                                        </ul><!-- .dropdown-menu -->
+                                    </li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul><!-- .nav -->
+                                </div><!-- /.navbar-collapse -->
+                            </div><!-- .row -->
+                            
+                        </div><!-- /.container-fluid -->
+                        </nav>
+                </div><!-- .col-md-9 -->
+            </div>
+        </div><!-- .container -->
+    </header>
+
+    <section id="home-slider" class="slider">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <!--<ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    </ol>-->
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active j-item" id="slide1">
+                            <div class="overlay"></div>
+                            <!--<img src="images/slide1.jpg" alt="Slide 1 picture">-->
+                            <!--<div class="carousel-caption">
+                                Slide 1
+                            </div>-->
+                            <div class="textbox">
+                                <div class="text">
+                                    <h2>Welcome To Pet Care Service</h2>
+                                </div>
+                                <div class="text text-2">
+                                    <h3>We Provide All Sorts of Pet and Dog Care Services</h3>
+                                </div>
+
+                                <div class="text text-3">
+                                    <p><a href="#">Read More</a></p>
+                                </div>
+                            </div><!-- .textbox -->
+                           
+                            
+                        </div><!-- .j-item -->
+                        <div class="item j-item" id="slide2">
+                            <div class="overlay"></div>
+                            <!--<img src="images/slide2.jpg" alt="Slide 2 picture">-->
+                            <!--<div class="carousel-caption">
+                                Slide 2
+                            </div>-->
+                            <div class="textbox">
+                                <div class="text">
+                                    <h2>Doctors Are Always Available</h2>
+                                </div>
+                                
+                                <div class="text text-2">
+                                    <h3>Our Doctors are Always Available to Handle Emergency Cases</h3>
+                                </div>
+
+                                <div class="text text-3">
+                                    <p><a href="#">Read More</a></p>
+                                </div>
+                            </div><!-- .textbox -->
+                            
+                        </div><!-- .j-item -->
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control j-carousel-control-left" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control j-carousel-control-right" href="#carousel-example-generic" role="button" data-slide="next">
+                        <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div><!-- .row -->
+        </div><!-- .container-fluid -->
+    </section><!-- #home-slider -->
+
+    <section class="why-choose-us text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-uppercase">Why Choose Us</h2>
+                    <div class="line"></div>
+                    <h3 class="text-capitalise">We Provide Almost All Kinds of Pet Care Services</h3>
+                </div><!-- .col-md-12 -->
+            </div><!-- .row -->
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div><!-- .icon -->
+                        <div class="text">
+                            <h2>Quality Service</h2>
+                            <p>Ad his diam eirmod persecuti. Eum health cube scriptorem eu, eu aperiri definiebas conclud aturque.</p>
+                        </div><!-- .text -->
+                    </div><!-- .item -->
+                </div><!-- .col-md-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                        </div><!-- .icon -->
+                        <div class="text">
+                            <h2>24/7 Support</h2>
+                            <p>Ad his diam eirmod persecuti. Eum health cube scriptorem eu, eu aperiri definiebas conclud aturque.</p>
+                        </div><!-- .text -->
+                    </div><!-- .item -->
+                </div><!-- .col-md-4 -->
+                <div class="col-md-4 col-sm-4">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="fa fa-support" aria-hidden="true"></i>
+                        </div><!-- .icon -->
+                        <div class="text">
+                            <h2>Quick Help</h2>
+                            <p>Ad his diam eirmod persecuti. Eum health cube scriptorem eu, eu aperiri definiebas conclud aturque.</p>
+                        </div><!-- .text -->
+                    </div><!-- .item -->
+                </div><!-- .col-md-4 -->
+            </div>
+        </div><!-- .container -->
+    </section><!-- .why-choose-us -->
+
+    <section class="services text-center">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-uppercase">OUR SERVICES</h2>
+                    <div class="line"></div>
+                    <h3 class="text-capitalise">We Provide Almost All Kinds of Pet Care Services</h3>
+                </div><!-- .col-md-12 -->
+            </div><!-- .row -->
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/img/i1.jpg" alt="dog picture">
+                        </div><!-- .icon -->
+
+                        <div class="text">
+                            <h2 class="text-capitalize">Dog Walking</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, esse aliquid liberavisse eos ea, congue 
+                                doming fierent sit cu, tota accusam facilisi eam te.
+                            </p>
+                            <p>
+                                <a href="service-detail.html" class="btn j-btn-primary">Read More</a>
+                            </p>
+                        </div><!-- .text -->
+                    </div><!-- .item -->
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/img/i2.jpg" alt="dog picture">
+                        </div><!-- .icon -->
+
+                        <div class="text">
+                            <h2 class="text-capitalize">Pet Sitting</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, esse aliquid liberavisse eos ea, congue 
+                                doming fierent sit cu, tota accusam facilisi eam te.
+                            </p>
+                            <p>
+                                <a href="service-detail.html" class="btn j-btn-primary">Read More</a>
+                            </p>
+                        </div><!-- .text -->
+                    </div><!-- .item -->
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/img/i3.jpg" alt="dog picture">
+                        </div><!-- .icon -->
+
+                        <div class="text">
+                            <h2 class="text-capitalize">Holiday Service</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, esse aliquid liberavisse eos ea, congue 
+                                doming fierent sit cu, tota accusam facilisi eam te.
+                            </p>
+                            <p>
+                                <a href="service-detail.html" class="btn j-btn-primary">Read More</a>
+                            </p>
+                        </div><!-- .text -->
+                    </div><!-- .item -->
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="item">
+                        <div class="icon">
+                            <img src="assets/img/i4.jpg" alt="dog picture">
+                        </div><!-- .icon -->
+
+                        <div class="text">
+                            <h2 class="text-capitalize">Overnight Care</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, esse aliquid liberavisse eos ea, congue 
+                                doming fierent sit cu, tota accusam facilisi eam te.
+                            </p>
+                            <p>
+                                <a href="service-detail.html" class="btn j-btn-primary">Read More</a>
+                            </p>
+                        </div><!-- .text -->
+                    </div><!-- .item -->
+                </div><!-- .col-md-3 -->
+
+                
+            </div><!-- .row -->
+       </div><!-- .container --> 
+    </section><!-- .services -->
+
+    <section class="section-counter text-center" id="sec-counter">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="round-counter">
+                        <p class="counter-box">
+                            <span id="counter550" class="counter">550</span>
+                            <!--<span class='numscroller' data-min='1' data-max='550' data-delay='0.5' data-increment='1'>550</span>-->
+                        </p><!-- .counter -->
+                        <p>
+                            <span id="counterStartLine">Happy Dogs</span>
+                        </p>
+                    </div><!-- .round-counter -->
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="round-counter">
+                        <p class="counter-box">
+                            <span id="counter30" class="counter">30</span>
+                            <!--<span class='numscroller' data-min='1' data-max='30' data-delay='2' data-increment='1'>30</span>-->
+                        </p><!-- .counter -->
+                        <p>
+                            <span>Doctors</span>
+                        </p>
+                    </div><!-- .round-counter -->
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="round-counter">
+                        <p class="counter-box">
+                            <span id="counter150" class="counter">150</span>
+                            <!--<span class='numscroller' data-min='1' data-max='150' data-delay='2' data-increment='1'>150</span>-->
+                        </p><!-- .counter -->
+                        <p>
+                            <span>Services</span>
+                        </p>
+                    </div><!-- .round-counter -->
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-sm-6">
+                    <div class="round-counter">
+                        <p class="counter-box">
+                            <span id="counter12" class="counter">12</span>
+                            <!--<span class='numscroller' data-min='1' data-max='12' data-delay='2' data-increment='1'>12</span>-->
+                        </p><!-- .counter -->
+                        <p>
+                            <span>Branches</span>
+                        </p>
+                    </div><!-- .round-counter -->
+                </div><!-- .col-md-3 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+        <!--<span class="counter">12345</span>-->
+    </section><!-- .counter -->
+
+    <section class="work text-center">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-uppercase">Our Works</h2>
+                    <div class="line"></div>
+                    <h3 class="text-capitalise">We have all kinds of Works that are included below</h3>
+                </div><!-- .col-md-12 -->
+            </div><!-- .row -->
+            <div class="row">
+                <div class="work-grid">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work1.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Dog Walking</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work2.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Pet Sitting</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work3.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Holiday Service</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work4.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Overnight Care</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work5.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Pet Dental Care</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work6.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Boarding And Grooming</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work7.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Specialty Services</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <img src="assets/img/work8.jpg" alt="dog picture">
+                            </div><!-- .photo -->
+                            <div class="desc">
+                                <h3>
+                                    <a href="#">Health Care</a>
+                                </h3>
+                            </div><!-- .desc -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                </div><!-- .work-grid -->
+            </div><!-- .row -->
+        </div><!-- .continer -->
+    </section><!-- .work -->
+
+    <section class="doctor text-center">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-uppercase">Our Doctors</h2>
+                    <div class="line"></div>
+                    <h3 class="text-capitalise">We have all kinds of Works that are included below</h3>
+                </div><!-- .col-md-12 -->
+            </div><!-- .row -->
+            <div class="row">
+                <div class="team-inner">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <a href="#">
+                                    <img src="assets/img/doctor1.jpg" alt="pic of doctor">
+                                </a>
+                            </div><!-- .photo -->
+                            <div class="text">
+                                <h3><a href="#">Robert Smith</a></h3>
+                                <h4>Dog Walking</h4>
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div><!-- .social-icons -->
+                            </div><!-- .text -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <a href="#">
+                                    <img src="assets/img/doctor2.jpg" alt="pic of doctor">
+                                </a>
+                            </div><!-- .photo -->
+                            <div class="text">
+                                <h3><a href="#">Brent Grundy</a></h3>
+                                <h4>Pet Sitting</h4>
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div><!-- .social-icons -->
+                            </div><!-- .text -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <a href="#">
+                                    <img src="assets/img/doctor3.jpg" alt="pic of doctor">
+                                </a>
+                            </div><!-- .photo -->
+                            <div class="text">
+                                <h3><a href="#">Jeff Benson</a></h3>
+                                <h4>Holiday Service</h4>
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div><!-- .social-icons -->
+                            </div><!-- .text -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                    <div class="col-md-3 col-sm-6">
+                        <div class="inner">
+                            <div class="photo">
+                                <a href="#">
+                                    <img src="assets/img/doctor4.jpg" alt="pic of doctor">
+                                </a>
+                            </div><!-- .photo -->
+                            <div class="text">
+                                <h3><a href="#">Danny Ashton</a></h3>
+                                <h4>Overnight Cate</h4>
+                                <div class="social-icons">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    </ul>
+                                </div><!-- .social-icons -->
+                            </div><!-- .text -->
+                        </div><!-- .inner -->
+                    </div><!-- .col-md-3 -->
+                </div><!-- .team-inner -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section><!-- .doctor -->
+
+    <section class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <!--<ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        </ol>-->
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner j-wrapper" role="listbox">
+                            <div class="item active j-item" id="slide1">
+                                <div class="textbox">
+                                    <div class="comment">
+                                        <p>
+											“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
+                                            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.”
+										</p>
+                                    </div><!-- .comment -->
+                                    <div class="author">
+                                        <div class="photo">
+                                            <img src="assets/img/testimonial1.jpg" alt="commenter photo">
+                                        </div><!-- .photo -->
+                                        <div class="text">
+                                            <h3>John Doe</h3>
+                                            <h4>Managing Director <span>(ABC Inc.)</span></h4>
+                                        </div><!-- text -->
+                                    </div><!-- .author -->
+                                </div><!-- .textbox -->                                
+                            </div><!-- .j-item -->
+
+                            <div class="item j-item" id="slide2">
+                                <div class="textbox">
+                                    <div class="comment">
+                                        <p>
+											“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                                            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                                            veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
+                                            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.”
+										</p>
+                                    </div><!-- .comment -->
+                                    <div class="author">
+                                        <div class="photo">
+                                            <img src="assets/img/testimonial2.jpg" alt="commenter photo">
+                                        </div><!-- .photo -->
+                                        <div class="text">
+                                            <h3>John Doe</h3>
+                                            <h4>CEO <span>(XYZ Ltd.)</span></h4>
+                                        </div><!-- text -->
+                                    </div><!-- .author -->
+                                </div><!-- .textbox -->                                 
+                            </div><!-- .j-item -->
+                        </div><!-- .j-wrapper -->
+
+                        
+
+                        <!-- Controls -->
+                        <a class="left carousel-control j-carousel-control-left-2" href="#carousel-example-generic-2" role="button" data-slide="prev">
+                            <!--<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control j-carousel-control-right-2" href="#carousel-example-generic-2" role="button" data-slide="next">
+                            <!--<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div><!-- .col-md-12 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section><!-- .testimonial -->
+
+    <section class="news">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-part">
+                        <h2 class="text-uppercase">Our Doctors</h2>
+                        <div class="line"></div>
+                        <h3 class="text-capitalise">We have all kinds of Works that are included below</h3>
+                    </div><!-- .top-part -->
+                </div><!-- .col-md-12 -->
+            </div><!-- .row -->
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="thumbnail j-thumbnail">
+                        <div class="photo">
+                            <img src="assets/img/news1.jpg" alt="news thumbnail">
+                        </div><!-- .photo -->
+                        <div class="caption">
+                            <h3>Heading of News</h3>
+                            <h4>Posted by: Admin</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, eu ius brute nulla, est stet saepe ei, 
+                                salutandi splendide mediocritatem eam ex.
+                            </p>
+                            <p><a href="#" class="btn btn-primary">Read More</a></p>
+                        </div><!-- .caption -->
+                    </div><!-- .inner -->
+                </div><!-- .col-md-4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="thumbnail j-thumbnail">
+                        <div class="photo">
+                            <img src="assets/img/news2.jpg" alt="news thumbnail">
+                        </div><!-- .photo -->
+                        <div class="caption">
+                            <h3>Heading of News</h3>
+                            <h4>Posted by: Admin</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, eu ius brute nulla, est stet saepe ei, 
+                                salutandi splendide mediocritatem eam ex.
+                            </p>
+                            <p><a href="#" class="btn btn-primary">Read More</a></p>
+                        </div><!-- .caption -->
+                    </div><!-- .inner -->
+                </div><!-- .col-md-4 -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="thumbnail j-thumbnail">
+                        <div class="photo">
+                            <img src="assets/img/news3.jpg" alt="news thumbnail">
+                        </div><!-- .photo -->
+                        <div class="caption">
+                            <h3>Heading of News</h3>
+                            <h4>Posted by: Admin</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet, eu ius brute nulla, est stet saepe ei, 
+                                salutandi splendide mediocritatem eam ex.
+                            </p>
+                            <p><a href="#" class="btn btn-primary">Read More</a></p>
+                        </div><!-- .caption -->
+                    </div><!-- .inner -->
+                </div><!-- .col-md-4 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section><!-- .news -->
+
+    <section class="appointment">   
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <div class="left">
+                        <p>If you need help of our doctors for your pet, contact us now!</p>
+                    </div><!-- .left -->
+                </div><!-- .col-md-8 -->
+
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="right">
+                        <a href="#">Make Appointment</a>
+                    </div><!-- .right -->
+                </div><!-- .col-md-4 -->
+
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section><!-- .appointment -->
+
+    <section class="footer-links">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-sm-6 footer-col">
+                    <h3 class="text-uppercase">About Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Pinterest</a></li>
+                        <li><a href="#">Google Plus</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-lg-3 col-sm-6 footer-col">
+                    <h3 class="text-uppercase">Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Doctor</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Service Details</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-lg-3 col-sm-6 footer-col">
+                    <h3 class="text-uppercase">Services</h3>
+                    <ul>
+                        <li><a href="#">Dog Walking</a></li>
+                        <li><a href="#">Pet Sitting</a></li>
+                        <li><a href="#">Holiday Service</a></li>
+                        <li><a href="#">Overnight Care</a></li>
+                        <li><a href="#">Pet Dental Care</a></li>
+                        <li><a href="#">Boarding And Grooming</a></li>
+                    </ul>
+                </div><!-- .col-md-3 -->
+                <div class="col-md-3 col-lg-3 col-sm-6 footer-col">
+                    <h3 class="text-uppercase">Contact Us</h3>
+                    <ul class="contact-list">
+                        <li><a href="#">ABC Steet, NewYork.</a></li>
+                        <li><a href="#">123-456-7878</a></li>
+                        <li><a href="#">123-456-7890</a></li>
+                        <li><a href="#">info@yourdomain.com</a></li>
+                    </ul>
+                </div><!-- .col-md-3 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section>
+
+
+    <footer>
+        <div class="copyright">
+            Copyright © 2017, Your Website. All Rights Reserved.
+        </div><!-- .copyright -->
+    </footer>
+
+    
+    <a href="#" class="scrollUp" id="scrollUp">
+        <i class="fa fa-angle-up"></i>
+    </a><!-- #scrollUp -->
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>-->
+    <!--<script src="assets/js/counter/jquery.counterup.min.js"></script>-->
+    <!--<script src="assets/js/numscroller/numscroller-1.0.js"></script>-->
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+    <script src="assets/js/countUp/countUp.js"></script>
+    <!--<script src="assets/js/scrollup/dist/jquery.scrollUp.min.js"></script>-->
+    <script src="assets/plugins/myPlugins.js"></script>
+    <script src="assets/js/script-count.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
